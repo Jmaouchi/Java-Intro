@@ -1,4 +1,4 @@
-// Import the scanner method from the java.util package 
+// Import the scanner class from the java.util package 
 import java.util.Scanner;
 
 class Main {
@@ -48,6 +48,8 @@ class Main {
     int num = sc.nextInt();
     
     System.out.println("User's number is: " + num);
+    // close scanner object
+    sc.close();
 
   } // End of Main method
 } // End of Main class
