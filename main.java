@@ -39,15 +39,20 @@ class Main {
 
     // ask the user for inputs on the consol and then log the result
     // syntax for creating a Scanner object
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); // the system.in is to tell our Scanner where to look for input 
+    // and here it will look on the console, since it's a in at the end 
 
     // give the user directions in the console
     System.out.println("Enter a number: ");
-
     // get the user's input
     int num = sc.nextInt();
-    
     System.out.println("User's number is: " + num);
+
+    // give the user directions in the console
+    System.out.println("Enter a word: ");
+    // get the user's input
+    String word = sc.next();
+    System.out.println("User's number is: " + word);
     // close scanner object
     sc.close();
 
