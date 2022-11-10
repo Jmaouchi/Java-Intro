@@ -1,3 +1,6 @@
+// Import the scanner method from the java.util package 
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     // Place your code within this method
@@ -33,5 +36,18 @@ class Main {
     System.out.println(sentence);
     String sentenceB = "I mastered Java data types!";
     System.out.println(sentenceB);
+
+    // ask the user for inputs on the consol and then log the result
+    // syntax for creating a Scanner object
+    Scanner sc = new Scanner(System.in);
+
+    // give the user directions in the console
+    System.out.println("Enter a number: ");
+
+    // get the user's input
+    int num = sc.nextInt();
+    
+    System.out.println("User's number is: " + num);
+
   } // End of Main method
 } // End of Main class
