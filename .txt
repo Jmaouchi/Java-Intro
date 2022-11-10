@@ -1,0 +1,5 @@
+Use the .hasNext() method to check if there are more tokens (information to process).
+Use the .next() method to retrieve the subsequent token (data point).
+Use the .nextInt() to get an integer value from the keyboard.
+Use the .nextLine() to get a String from the keyboard.
+Use the .nextDouble() to get a double value from the keyboard.
