@@ -1,0 +1,28 @@
+Mathematical Operators:
+
+Addition	+	returns the sum of two operands	1 + 2	3
+Subtraction	-	returns the difference between two operands	4 - 2	2
+Division	/	returns the quotient of two operands	15 / 3	5
+Multiplication	*	returns the product of two operands	3 * 2	6
+Modulo
+
+
+
+Logical Operators
+Name	Symbol	Description	Example	Result
+Logical NOT	!	returns the opposite boolean value of an operand	!true	false
+Logical AND	&&	returns true only if both operands are true	true && true	true
+Logical OR	||	returns true if one of two operands is true	false || true	true
+ 
+
+
+Relational Operators
+Name	Symbol	Description	Example	Result
+Greater Than	>	returns true if the first operand is greater than the second operand	5 > 10	false
+Less Than	<	returns true if the first operand is less than the second operand	5 < 10	true
+Greater Than or Equal To	>=	returns true if the first operand is greater than or equal to the second operand	2 >= 2	true
+Less Than or Equal To	<=	returns true if the first operand is less than or equal to the second operand	2 <= 2	true
+Equal To	==	returns true if both operands have the same value	1 == 2	false
+Not Equal To	!=	returns true if both operands have different values	1 != 2	true
+ 
+
