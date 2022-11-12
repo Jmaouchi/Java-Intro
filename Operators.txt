@@ -1,3 +1,11 @@
+Java divides the operators into the following groups:
+  Arithmetic operators.
+  Assignment operators.
+  Comparison operators.
+  Logical operators.
+  Bitwise operators.
+
+
 Mathematical Operators:
 Addition	+	returns the sum of two operands	1 + 2	3
 Subtraction	-	returns the difference between two operands	4 - 2	2
