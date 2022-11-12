@@ -1,0 +1,8 @@
+- Switch statements do not strictly use a boolean condition to drive logic; instead, a switch statement is provided with a 
+  variable expression and  then compares the value of that expression against specified case values.
+- The switch variable datatype should match the datatype of the case statement value'
+
+- A switch statement should have a default case at the end, and this will be called if no previous case statements match the switch value.
+- A break Keyword will stop the execution of the logic whenever a condition is met.
+- We use a breack keyword in switch statement because  switch statements exhibit, means that if there is no break, the code wont stop running even
+  the condition is met 
