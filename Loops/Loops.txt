@@ -1,0 +1,5 @@
+There is 3 types of loops in java:
+- While loop that starts with a while() {}, this loop will wun until the boolean statement is false
+- do while loop, and starts with do{ code } while(condition statement), its almost the same than the while loop, the only difference is 
+  the do while loop runs at least 1 time
+  while loop checks its condition before running its code block and a do-while loop runs its code block and then checks its condition
