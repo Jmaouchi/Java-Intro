@@ -4,6 +4,8 @@ class BankAccount{
   String accountHolder;
   double accountValue;
 
+  // behaviors
+  
   // 1st methode
   void printInfo(){
     System.out.println("Account Holder is:" + accountHolder);
