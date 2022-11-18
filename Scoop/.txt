@@ -1,0 +1,4 @@
+ 
+- 
+- Method Scope ( variables that are inside methodes cant be called outside of the method. you need to called the whole method)
+- Block Scope ( variables that are in an if/else or a switch statements... and cant be called outside of the statements)

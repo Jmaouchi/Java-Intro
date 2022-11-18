@@ -1,0 +1,1 @@
+- One of the 4 pilars of OOP is the inheritance

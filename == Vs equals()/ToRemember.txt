@@ -1,0 +1,13 @@
+- Always the primitives and the variables are stored in the STACK but the objects are stored in the HEAP
+- String literals, or Strings created using quotation marks, are stored in a place in heap memory called the String Pool.
+-  When a String is created as a literal, Java checks if a String object with the same exact character sequence is already in the pool.
+  If there is one, instead of creating a new String object, Java re-uses the one in the pool to save memory
+- If we want to compare the values of 2 dfrt varaible that stores in dfrnt place on memory, we need the equal() method instead of the ==
+for exmple: 
+          int a = 2
+          int b = new int (2);
+
+          System.out.println(int.equal(b)) // this should return true even they do have a dfrnt location in memory. 
+
+the equals() method checks if the objects are **equivalent**, or if they have the same state or same value;
+
