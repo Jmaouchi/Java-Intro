@@ -1,0 +1,2 @@
+We use Super keyword, when we have a class constructor and a subclass and whithin the subclass we want to reference to the parent class methods,
+ variables and the constructor itself
