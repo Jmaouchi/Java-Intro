@@ -25,4 +25,10 @@ public class Calculator {
     System.out.println("version 2");
     return a+b+c; 
   }
+
+   // Version 2 of add method takes in three int values
+   public String add(String a, String b, String c) {
+    System.out.println("version 2");
+    return a+b+c; 
+  }
 }
