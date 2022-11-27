@@ -1,0 +1,4 @@
+- Exeptions are going to be resolved by the developer but Errors cant be resolved by a .
+- Exeptions are some wrong code.... 
+- Errors are: out of memory or stackOverFlow errors (missing a piece of your applications)
+- Exeptions are recovrable and its the opposite for the errors 
