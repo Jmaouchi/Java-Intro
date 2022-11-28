@@ -4,5 +4,9 @@ class Main{
     Ocarina c = new Ocarina();
     c.color = "blue";
     System.out.println("my color is"+c.color);
+
+    // this is the better way 
+    c.setSong("hello helloooooo")
+    System.out.println("my color is"+ c.setSong());
   }
 }
