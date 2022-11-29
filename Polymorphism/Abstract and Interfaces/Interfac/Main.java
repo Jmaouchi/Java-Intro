@@ -14,6 +14,7 @@ class Main {
     System.out.println(Balhandler.sport);
     
     // Calling teh Balhandler interface's, concrete method directly from the interface
-    Ballhandleer.dribbleBall();
+    // you cant create an object from an interface, thats why we are calling the methods attached by the interface name
+    Ballhandleer.dropTheBall();
   }
 }
