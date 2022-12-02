@@ -38,6 +38,11 @@ public class Main{
 
     // removing from the list using an index
     list.remove(0);
+    list.add(2, "New String");
+    list.set(3, "update String");
+    list.size(); // this will get the number of elements are in the array
+    Collections.sort(list); // this will sort the array by alphabet
+    Collections.reverse(list); // this will print the array strings backwords
     String max = list.get(0);
     for(String i : list){
       int ilength = i.length();
