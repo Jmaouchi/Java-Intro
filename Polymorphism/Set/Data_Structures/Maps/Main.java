@@ -19,16 +19,30 @@ class Main {
 
     // change the area code for New York
     areaCodeMap.put("New York", 212);
+
     // Print the size of out HashMap
     System.out.println("The size of this map is: " + areaCodeMap.size());
 
     // Print the entry sets of the HashSet (all the sets that are inside the set)
     System.out.println("The enty sets are " + areaCodeMap.entrySet());
 
-
-
     //Adding elements to the map
-    //Insertion order is not maintained 
-  
+    areaCodeMap.remove("Miami");
+    System.out.println(areaCodeMap);
+
+    // Print out the city's area code if the map contains that city 
+    if(areaCodeMap.containsKey("Miami")){
+      // this will print the area code 
+      System.out.println("Miami code is: "+ areaCodeMap.get("Miami"));
+      // this will return true or false if the areacodemap contains a key  
+      System.out.println("Miami is the best city?" + areaCodeMap.containsValue(206));
+    }else{
+      System.out.println("areaCodeMap doesnt contain Miami");
+    }
+
+    // this will return each key inside our collection
+    for(String city: areaCodeMap.keySet()){
+      System.out.println("The area code for " + city + "is " + areaCodeMap.get(city));
+    }
   } 
 }
