@@ -36,13 +36,13 @@ class Main {
       System.out.println(instruments.get(i));
     }
 
-    // Start running our 2nd array
+    // Start running on our 2nd array
     numbers.add(15);
     numbers.add(22);
     numbers.add(99);
     numbers.add(new Integer (75));
     numbers.add(new Integer (16));
-    numbers.add(new Integer (2));
+    numbers.add(new Integer (2))
     for (int i = 0; i < numbers.size(); i++) {
       System.out.println(numbers.get(i));
     }
